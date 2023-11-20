@@ -15,8 +15,8 @@ st.set_page_config(
 )
 
 
-day_df = pd.read_csv("day.csv")
-hour_df = pd.read_csv("hour.csv")
+day_df = pd.read_csv(r'dashboard/day.csv')
+hour_df = pd.read_csv(r'dashboard/hour.csv')
 day_df.head()
 
 datetime_columns = ["dteday"]
